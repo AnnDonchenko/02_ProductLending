@@ -1,0 +1,316 @@
+@import url(reset.css);
+body{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+p, ul{
+	line-height: 1.5;
+	color: #333333;
+	line-height: 1.4;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+
+header{
+	background-color: #445162;
+	height: 322px;
+}
+
+.bg_gray{
+	background-color: #f5f5f5;
+}
+
+.blockProduct, .blockAbout, .blockPluses, .blockScrinshots, .blockReviews, .blockBuy, .blockContacts{
+	width: 1180px;
+	margin: 0 auto;
+}
+
+header h1{
+	line-height: 1;
+	font-size: 60px;
+	color: #ffffff;
+	padding-top: 40px;
+	padding-bottom: 38px;
+	text-shadow: 1px 1px 0px black;
+	text-align: left;
+}
+
+.blockProduct .headerPicture, .blockAbout .aboutPicture{
+	float: right;
+	padding-top: 50px;
+}
+
+.blockProduct ul{
+	line-height: 1.7;
+}
+
+.blockProduct .checkList{
+	color: #ffffff;
+	background: url(../images/check.png) no-repeat left center;
+	padding-left: 35px;
+	font-size: 20px;
+	text-shadow: 1px 1px 0px black;
+}
+
+section h1{
+	line-height: 1;
+	font-size: 30px;
+	color: #445161;
+	padding-top: 50px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+
+.blockAbout{
+	height: 345px;
+}
+.blockAbout h1{
+	text-align: left;
+}
+
+.aboutContent{
+	width: 680px;
+}
+
+.col{
+	width: 590px;
+	float: left;
+}
+
+.blockPluses{
+	height: 418px;
+}
+	
+.blockPluses .plusList{
+	color: #333333;
+	background: url(../images/plus.png) no-repeat left;
+	background-position: 0px 6px;
+	padding-left: 40px;
+	padding-bottom: 28px;
+	padding-top: 0px;
+}
+
+.blockScrinshots{
+	height: 490px;
+}
+
+.blockScrinshots img{
+	float: left;
+	padding: 10px 15px 15px 0;
+}
+
+.blockScrinshots h2{
+	font-size: 24px;
+	color: #445161;
+}
+
+.blockReviews{
+	height: 424px;
+}
+
+.blockReviews img{
+	float: left;
+}
+
+.reviewBlock p{
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.3;
+	padding-bottom: 0;
+}
+
+.avtor{
+	color: #989898;
+	font-style: normal;
+	/* line-height: 1; */
+	padding-top: 5px;
+}
+
+.reviewBlock{
+	background-color: #ebebeb;
+	border-radius: 5px;
+	padding: 14px;
+	/* overflow:hidden; */
+	margin: 0 17px 25px 103px;
+	position: relative;
+
+}
+
+.reviewBlock::after{
+	
+	content: '';
+    width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 12px 12px 12px 0;
+	border-color: transparent #ebebeb transparent transparent;
+	position: absolute;
+	left: -12px;
+	top: 25px;
+}
+
+.blockBuy{
+	height: 655px;
+	position: relative;
+}
+
+.standart, .premium, .lux{
+	width: 300px;
+	background-color: #445162;
+	border-radius: 5px;
+	padding: 16px 0 20px 0;
+	float: left;
+	position: absolute;
+	bottom: 50px;
+	margin-right: 50px;
+}
+.standart{
+	left: 95px;
+}
+.premium{
+	left: 440px;
+}
+.lux{
+	left: 785px;
+}
+.blockBuy h3{
+	font-size: 24px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1;
+}
+.blockBuy p{
+	font-size: 40px;
+	color: #445162;
+	background-color: #ffffff;
+	text-align: center;
+	border: solid 2px #445162;
+	line-height: 1;
+	padding: 13px 0 13px 0;
+	margin: 14px 0 18px 0;
+}
+.blockBuy ol{
+	list-style-type: decimal;
+	padding-left: 36px;
+}
+.blockBuy li{
+	color: #ffffff;
+	font-size: 14px;
+}
+a.btn{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1;
+	user-select: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #445162;
+	padding: 11px 0;
+	margin: 20px 18px 0 18px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+.sectionContacts{
+background-color: #445162;
+}
+.blockContacts{
+	height: 508px;
+}
+.blockContacts h1{
+	color: #ffffff;
+}
+.blockContacts form{
+width: 500px;
+margin-left: 200px;
+float: left;	
+}
+a.btn_send{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	line-height: 1;
+	font-size: 18px;
+	font-weight: bold;
+	color: #445162;
+	padding: 11px 47px;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+.blockContacts p{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+.blockContacts input{
+	width: 480px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-width: 0;
+	margin-bottom: 20px;
+	font-size: 16px;
+	padding: 9px 10px;
+	color: #445162;
+}
+.blockContacts textarea{
+	font-family: Arial, sans-serif;
+	width: 480px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border-width: 0;
+	margin-bottom: 18px;
+	font-size: 16px;
+	padding: 9px 10px;
+	color: #445162;
+}
+/* стилизируем плейсхолдеры форм */
+::-moz-placeholder {font-family: Arial, sans-serif; color: #445162; font-size: 16px;}
+::-webkit-input-placeholder {font-family: Arial, sans-serif; color: #445162; font-size: 16px;}
+::-moz-placeholder          {font-family: Arial, sans-serif; color: #445162; font-size: 16px;}/* Firefox 19+ */
+:-moz-placeholder           {font-family: Arial, sans-serif; color: #445162; font-size: 16px;}/* Firefox 18- */
+:-ms-input-placeholder      {font-family: Arial, sans-serif; color: #445162; font-size: 16px;}
+
+.contacts{
+	margin-left: 743px;
+}
+.blockContacts ul{
+	font-size: 16px;
+	color: #ffffff;
+	line-height: 2.4;
+}
+
+#skype_icon{
+	background: url(../images/skype_icon.png) no-repeat left center;
+	padding-left: 30px;
+}
+
+#phone_icon{
+	background: url(../images/phone_icon.png) no-repeat left center;
+	padding-left: 30px;
+}
+
+#icq_icon{
+	background: url(../images/icq_icon.png) no-repeat left center;
+	padding-left: 30px;
+}
+
+#mail_icon{
+	background: url(../images/mail_icon.png) no-repeat left center;
+	padding-left: 30px;
+}
+.blockContacts .sotial{
+	text-align: left;
+}
+footer{
+	background-color: #f5f5f5;
+	text-align: center;
+	font-size: 12px;
+	color: #445162;
+	height: 50px;
+}
+footer p{
+	padding-top: 10px;
+}
