@@ -15,3 +15,5 @@ http://psd-html-css.ru/templates/prostoy-psd-maket-landing-page
 
 Шаблон взят с сайта:
 http://psd-html-css.ru/templates/prostoy-psd-maket-landing-page
+
+![Alt text](simple_psd_template.jpg?raw=true "Title")
